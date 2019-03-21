@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  RunLogVC.swift
 //  Treads
 //
 //  Created by Ahmad Fatayri on 3/20/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class RunLogVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
