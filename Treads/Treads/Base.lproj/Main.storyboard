@@ -152,13 +152,13 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="firstBaseline" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="XyK-i4-b3g">
                                         <rect key="frame" x="0.0" y="28.5" width="81.5" height="37"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="0.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fgR-CN-UJ7">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="0.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fgR-CN-UJ7">
                                                 <rect key="frame" x="0.0" y="0.0" width="60" height="37"/>
                                                 <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="30"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="mi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5RZ-NS-5ar">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="mi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5RZ-NS-5ar">
                                                 <rect key="frame" x="63" y="15.5" width="18.5" height="17.5"/>
                                                 <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -179,6 +179,11 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l3Y-fO-O4y">
                                 <rect key="frame" x="254" y="552" width="75" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="IkY-o9-zxP"/>
+                                    <constraint firstAttribute="width" secondItem="l3Y-fO-O4y" secondAttribute="height" multiplier="1:1" id="WuC-Sq-J3x"/>
+                                    <constraint firstAttribute="height" constant="75" id="kgK-GL-OWe"/>
+                                </constraints>
                                 <state key="normal" image="pauseButton"/>
                                 <connections>
                                     <action selector="pauseBtnPressed:" destination="eHP-h3-obV" eventType="touchUpInside" id="Ovq-fV-PKR"/>
@@ -190,12 +195,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="l3Y-fO-O4y" firstAttribute="leading" secondItem="oGZ-fV-f9g" secondAttribute="trailing" constant="-24.5" id="08y-hi-6zI"/>
                             <constraint firstItem="Mob-dC-qph" firstAttribute="bottom" secondItem="oGZ-fV-f9g" secondAttribute="bottom" constant="40" id="28T-sp-duO"/>
                             <constraint firstItem="FZb-ax-grV" firstAttribute="leading" secondItem="Mob-dC-qph" secondAttribute="leading" id="3ib-FM-8j4"/>
                             <constraint firstItem="8kV-TS-0Sh" firstAttribute="top" secondItem="Mob-dC-qph" secondAttribute="top" constant="8" id="4qY-iq-n7N"/>
                             <constraint firstItem="oGZ-fV-f9g" firstAttribute="leading" secondItem="fzY-9d-3B6" secondAttribute="trailing" constant="-65.5" id="6gp-En-rKa"/>
                             <constraint firstItem="9QB-NR-oJW" firstAttribute="top" secondItem="bEh-Cr-VWe" secondAttribute="bottom" constant="42" id="9cq-qe-Sdj"/>
+                            <constraint firstItem="l3Y-fO-O4y" firstAttribute="leading" secondItem="YXu-fT-aM4" secondAttribute="trailing" constant="27" id="9h8-P0-jF3"/>
                             <constraint firstItem="BOc-J0-Uhm" firstAttribute="top" secondItem="8kV-TS-0Sh" secondAttribute="bottom" constant="36" id="BQn-dT-09u"/>
                             <constraint firstItem="FZb-ax-grV" firstAttribute="bottom" secondItem="Mob-dC-qph" secondAttribute="bottom" id="DtZ-3i-UKo"/>
                             <constraint firstItem="bEh-Cr-VWe" firstAttribute="leading" secondItem="Mob-dC-qph" secondAttribute="leading" id="JZq-eg-zPF"/>
