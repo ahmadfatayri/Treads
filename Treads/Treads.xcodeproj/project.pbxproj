@@ -36,6 +36,9 @@
 		31C37A092243D8BE0050505D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C37A082243D8BE0050505D /* Extensions.swift */; };
 		31C37A0B22451A1A0050505D /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C37A0A22451A1A0050505D /* Run.swift */; };
 		31C37A0D2245200F0050505D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C37A0C2245200F0050505D /* Constants.swift */; };
+		31C37A0F224A3C070050505D /* RunLogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C37A0E224A3C070050505D /* RunLogCell.swift */; };
+		31C37A11224A50950050505D /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C37A10224A50950050505D /* Location.swift */; };
+		31C37A13224A544A0050505D /* RealmConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C37A12224A544A0050505D /* RealmConfig.swift */; };
 		7C9ABE1F93DD0C8DFA056810 /* Pods_Treads.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0278493CE016920DBBF05C6 /* Pods_Treads.framework */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +74,9 @@
 		31C37A082243D8BE0050505D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		31C37A0A22451A1A0050505D /* Run.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
 		31C37A0C2245200F0050505D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		31C37A0E224A3C070050505D /* RunLogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunLogCell.swift; sourceTree = "<group>"; };
+		31C37A10224A50950050505D /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		31C37A12224A544A0050505D /* RealmConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmConfig.swift; sourceTree = "<group>"; };
 		3C4CB233DCA62733541454C2 /* Pods-Treads.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Treads.debug.xcconfig"; path = "Target Support Files/Pods-Treads/Pods-Treads.debug.xcconfig"; sourceTree = "<group>"; };
 		A0278493CE016920DBBF05C6 /* Pods_Treads.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Treads.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE4BB94A71B1351A930DB590 /* Pods-Treads.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Treads.release.xcconfig"; path = "Target Support Files/Pods-Treads/Pods-Treads.release.xcconfig"; sourceTree = "<group>"; };
@@ -170,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				31C37A0C2245200F0050505D /* Constants.swift */,
+				31C37A12224A544A0050505D /* RealmConfig.swift */,
 			);
 			path = Uitilities;
 			sourceTree = "<group>";
@@ -189,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				31C37A0A22451A1A0050505D /* Run.swift */,
+				31C37A10224A50950050505D /* Location.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -196,6 +204,7 @@
 		31C379DF2243AB0F0050505D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				31C37A0E224A3C070050505D /* RunLogCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -350,10 +359,13 @@
 			files = (
 				31C37A072243C6780050505D /* CurrentRunVC.swift in Sources */,
 				31C37A092243D8BE0050505D /* Extensions.swift in Sources */,
+				31C37A11224A50950050505D /* Location.swift in Sources */,
 				313B30DC22427687007B35BD /* RunLogVC.swift in Sources */,
 				31C37A052243C2800050505D /* LocationVC.swift in Sources */,
 				313B30D822427686007B35BD /* AppDelegate.swift in Sources */,
 				31C37A0B22451A1A0050505D /* Run.swift in Sources */,
+				31C37A0F224A3C070050505D /* RunLogCell.swift in Sources */,
+				31C37A13224A544A0050505D /* RealmConfig.swift in Sources */,
 				313B30DA22427686007B35BD /* BeginRunVC.swift in Sources */,
 				31C37A0D2245200F0050505D /* Constants.swift in Sources */,
 			);
