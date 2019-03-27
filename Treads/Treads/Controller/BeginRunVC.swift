@@ -77,7 +77,7 @@ class BeginRunVC: LocationVC {
     
     func centerMapOnUserLocation() {
         mapView.userTrackingMode = .follow
-        let coordinateRegion = MKCoordinateRegion(center: mapView.userLocation.coordinate, latitudinalMeters: 500, longitudinalMeters: 500)
+        let coordinateRegion = MKCoordinateRegion(center: mapView.userLocation.coordinate, latitudinalMeters: 1000, longitudinalMeters: 1000)
         mapView.setRegion(coordinateRegion, animated: true)
     }
     
